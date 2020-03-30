@@ -8,4 +8,131 @@ body{
 .main-wrapper{
     padding: 30px 0;
 }
+.fs-12{
+    font-size: 12px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-17{
+    font-size: 17px;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+.mb-6{
+    margin-bottom: 60px;
+}
+.mb-7{
+    margin-bottom: 70px;
+}
+.mb-8{
+    margin-bottom: 80px;
+}
+.mb-9{
+    margin-bottom: 90px;
+}
+.mb-10{
+    margin-bottom: 100px;
+}
+#mapBox {
+    width: 80%;
+    float: left;
+}
+#up {
+    line-height: 30px;
+    height: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#up a {
+    cursor: pointer;
+    padding-left: 40px;
+}
+.selector {
+    height: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+.selector .prev-next {
+    position: absolute;
+    padding: 0 10px;
+    font-size: 30px;
+    line-height: 20px;
+    background: white;
+    font-weight: bold;
+    color: #999;
+    top: -2px;
+    display: none;
+    border: none;
+}
+.selector .custom-combobox {
+    display: block;
+    position: absolute;
+    left: 40px;
+    right: 65px;
+}
+.selector .custom-combobox .custom-combobox-input {
+    position: absolute;
+    font-size: 14px;
+    color: silver;
+    border-radius: 3px 0 0 3px;
+    height: 32px;
+    display: block;
+    background: url(https://www.highcharts.com/samples/graphics/search.png) 5px 8px no-repeat white;
+    padding: 1px 5px 1px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.selector .custom-combobox .ui-autocomplete-input:focus {
+    color: black;
+}
+.selector .custom-combobox .ui-autocomplete-input.valid {
+    color: black;
+}
+.selector .custom-combobox-toggle {
+    position: absolute;
+    display: block;
+    right: -32px;
+    border-radius: 0 3px 3px 0;
+    height: 32px;
+    width: 32px;
+}
+
+.selector #btn-next-map {
+    right: -12px;
+}
+.ui-autocomplete {
+    max-height: 500px;
+    overflow: auto;
+}
+.ui-autocomplete .option-header {
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: gray;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+.ui-button-icon-only .ui-button-text {
+    height: 26px;
+    padding: 0 !important;
+    background: white;
+}
 }

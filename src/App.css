@@ -9,4 +9,156 @@ body #sidebar {
 body .main-wrapper {
   padding: 30px 0;
 }
+
+body .fs-12 {
+  font-size: 12px;
+}
+
+body .fs-13 {
+  font-size: 13px;
+}
+
+body .fs-14 {
+  font-size: 14px;
+}
+
+body .fs-15 {
+  font-size: 15px;
+}
+
+body .fs-16 {
+  font-size: 16px;
+}
+
+body .fs-17 {
+  font-size: 17px;
+}
+
+body .fs-18 {
+  font-size: 18px;
+}
+
+body .mb-6 {
+  margin-bottom: 60px;
+}
+
+body .mb-7 {
+  margin-bottom: 70px;
+}
+
+body .mb-8 {
+  margin-bottom: 80px;
+}
+
+body .mb-9 {
+  margin-bottom: 90px;
+}
+
+body .mb-10 {
+  margin-bottom: 100px;
+}
+
+body #mapBox {
+  width: 80%;
+  float: left;
+}
+
+body #up {
+  line-height: 30px;
+  height: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+body #up a {
+  cursor: pointer;
+  padding-left: 40px;
+}
+
+body .selector {
+  height: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body .selector .prev-next {
+  position: absolute;
+  padding: 0 10px;
+  font-size: 30px;
+  line-height: 20px;
+  background: white;
+  font-weight: bold;
+  color: #999;
+  top: -2px;
+  display: none;
+  border: none;
+}
+
+body .selector .custom-combobox {
+  display: block;
+  position: absolute;
+  left: 40px;
+  right: 65px;
+}
+
+body .selector .custom-combobox .custom-combobox-input {
+  position: absolute;
+  font-size: 14px;
+  color: silver;
+  border-radius: 3px 0 0 3px;
+  height: 32px;
+  display: block;
+  background: url(https://www.highcharts.com/samples/graphics/search.png) 5px 8px no-repeat white;
+  padding: 1px 5px 1px 30px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .selector .custom-combobox .ui-autocomplete-input:focus {
+  color: black;
+}
+
+body .selector .custom-combobox .ui-autocomplete-input.valid {
+  color: black;
+}
+
+body .selector .custom-combobox-toggle {
+  position: absolute;
+  display: block;
+  right: -32px;
+  border-radius: 0 3px 3px 0;
+  height: 32px;
+  width: 32px;
+}
+
+body .selector #btn-next-map {
+  right: -12px;
+}
+
+body .ui-autocomplete {
+  max-height: 500px;
+  overflow: auto;
+}
+
+body .ui-autocomplete .option-header {
+  font-style: italic;
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 1.2em;
+  color: gray;
+}
+
+body .loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+
+body .ui-button-icon-only .ui-button-text {
+  height: 26px;
+  padding: 0 !important;
+  background: white;
+}
 /*# sourceMappingURL=App.css.map */
